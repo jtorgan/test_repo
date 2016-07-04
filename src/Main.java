@@ -8,5 +8,6 @@ public class Main {
 
     private static void doNothing() {
         // todo
+        System.out.print("Do nothing!");
     }
 }
