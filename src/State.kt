@@ -1,3 +1,3 @@
 enum class State {
-    Open, Closed
+    Open, InProgress, Closed
 }
