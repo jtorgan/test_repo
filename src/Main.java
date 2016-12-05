@@ -1,11 +1,17 @@
 public class Main {
 
     public static void main(String[] args) {
+        doNothing();
         System.out.println("Hello World!");
         System.out.println("Hello World!");
         System.out.println("Hello World!");
         System.out.println("Hello World!");
         System.out.println("Hello World!");
+    }
+
+    private static void doNothing() {
+        // todo
+        System.out.print("Do nothing!");
     }
 
     public static void print() {
@@ -17,5 +23,4 @@ public class Main {
     public static void print2() {
         System.out.println("Hello World 2!");
     }
-
 }
